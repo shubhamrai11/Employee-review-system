@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="/styles/homeAdmin.css">
+<!-- Home Page for admin -->
+<div id="container">
+    <!-- select container to perform any actions -->
+    <div id="select">
+        <!-- By default all employees are displayed on the home page -->
+        <div id="all-emp">All Employees</div>
+        <!-- click to view all performmance reviews -->
+        <a href="assign/allPR">
+            <div id="all-pr">All Performance Reviews</div>
+        </a>
+        <!-- click to assign performance review to an employee -->
+        <a href="/assign">
+            <div id="assign-pr">Assign Performance Review</div>
+        </a>
+        
+    </div>
+    <!-- div to display all employees currently working -->
+    <div id="selected-content">
+        <div id="allEmployees">
+            <!-- heading -->
+            <div id="allemp-header">
+                <!-- All Employees Heading -->
+                <div id="allemp-heading"><h1 id="heading"></h1></div>
+                <!-- button to add a new employee -->
+                <div id="addemp-button">
+                    <a href="/employees/addEmp">
+                        <button id="btn">Add Employee</button>
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+<script src="/scripts/homeAdmin.js"></script>

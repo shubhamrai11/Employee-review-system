@@ -1,0 +1,55 @@
+#container #select {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  min-height: 2000px;
+  vertical-align: top;
+  text-align: center;
+  background-color: black; }
+  #container #select a {
+    text-decoration: none; }
+  #container #select div {
+    color: gainsboro;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 15px; }
+  #container #select #all-pr {
+    color: lightseagreen; }
+
+#container #selected-content {
+  display: inline-block;
+  width: 72%;
+  height: auto;
+  min-height: 100vh;
+  text-align: center; }
+  #container #selected-content #allpr-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; }
+    #container #selected-content #allpr-header #allpr-heading #heading {
+      text-align: center; }
+    #container #selected-content #allpr-header #addpr-button #btn {
+      font-size: 1.3rem;
+      border-radius: 2rem;
+      background-color: lightseagreen;
+      color: white;
+      width: 150px;
+      height: 70px;
+      border: 0px; }
+  #container #selected-content #heading {
+    text-align: center;
+    margin-left: 15px; }
+  #container #selected-content .rev {
+    border: 1px solid lightseagreen;
+    border-radius: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px; }
+    #container #selected-content .rev .emp-name {
+      color: lightseagreen; }
+    #container #selected-content .rev #update-btn {
+      background-color: lightseagreen;
+      border: 0px;
+      font-size: 1.3rem;
+      color: white;
+      border-radius: 2rem; }

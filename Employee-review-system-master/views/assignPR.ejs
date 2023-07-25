@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="/styles/assignPR.css">
+<!-- Page to  assign Performance review to an employee -->
+<div id="container">
+    <!-- select actions -->
+    <div id="select">
+        <a href="/">
+            <div id="all-emp">All Employees</div>
+        </a>
+        <a href="assign/allPR">
+            <div id="all-pr">All Performance Reviews</div>
+        </a>
+        <div id="assign-pr">Assign Performance Review</div>
+    </div>
+    <!-- div will display form to assign task -->
+    <div id="selected-content">
+        <!-- heading -->
+        <h1 id="heading">Assign Performance Review</h1>
+        <div id="assign">
+            <!-- form -->
+            <form action="/assign/addPR" method="post">
+                <!-- ReviewOf - which employee's performance will be reviewed -->
+                <label class="label">Review Of : </label>&nbsp;
+                <!-- displaying all the employees name -->
+                <select name="reviewOf" required class="select">
+                    <% for(let emp of employees) { %>
+                        <option value="<%= emp._id %>"><%= emp.name %></option>
+                    <% } %>
+                </select><br><br>
+                <!-- ReviewBy - which employee will review -->
+                <label class="label">Review By : </label>&nbsp;
+                <!-- displaying all th employees name -->
+                <select name="reviewBy" required class="select">
+                    <% for(let emp of employees) { %>
+                        <option value="<%= emp._id %>"><%= emp.name %></option>
+                    <% } %>
+                </select><br><br>
+                <!-- submit button -->
+                <input type="submit" value="Assign" id="btn">
+            </form>
+        </div>
+    </div>
+</div>

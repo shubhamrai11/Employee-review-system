@@ -1,0 +1,75 @@
+#container{
+    #select{
+        display: inline-block;
+        width: 25%;
+        height: auto;
+        min-height: 2000px;
+        vertical-align: top;
+        text-align: center;
+        background-color: black;
+        a{
+            text-decoration: none;
+        }
+        div{
+            color: gainsboro;
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        #all-pr{
+            color: lightseagreen;
+        }
+    }
+    #selected-content{
+        display: inline-block;
+        width: 72%;
+        height: auto;
+        min-height: 100vh;
+        text-align: center;
+
+        #allpr-header{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            #allpr-heading{
+                #heading{
+                    text-align: center;
+                }
+            }
+            #addpr-button{
+                #btn{
+                    font-size: 1.3rem;
+                    border-radius: 2rem;
+                    background-color: lightseagreen;
+                    color: white;
+                    width: 150px;
+                    height: 70px;
+                    border: 0px;
+                }
+            }
+            
+        }
+
+        #heading{
+            text-align: center;
+            margin-left: 15px;
+        }
+        .rev{
+            border: 1px solid lightseagreen;
+            border-radius: 2rem;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 15px;
+            .emp-name{
+                color: lightseagreen;
+            }
+            #update-btn{
+                background-color: lightseagreen;
+                border: 0px;
+                font-size: 1.3rem;
+                color: white;
+                border-radius: 2rem;
+            }
+        }
+    }
+}

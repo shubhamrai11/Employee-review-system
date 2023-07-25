@@ -1,0 +1,25 @@
+#addPR-container {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 30px;
+  border: 1px solid lightseagreen;
+  border-radius: 2rem; }
+  #addPR-container h1 {
+    text-align: center; }
+  #addPR-container .label {
+    font-size: 1.5rem; }
+  #addPR-container #revOf-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightseagreen; }
+  #addPR-container #submit-btn {
+    text-align: center; }
+  #addPR-container #btn {
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    background-color: lightseagreen;
+    color: white;
+    width: 150px;
+    height: 70px;
+    border: 0px; }
