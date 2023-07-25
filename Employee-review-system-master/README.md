@@ -10,7 +10,7 @@ To setup this project, run the following commands on your terminal
  1. Clone the project
 
 ```bash
-https://github.com/HarshitSingh45/Employee-review-system.git
+https://github.com/shubhamrai11/Employee-review-system.git
 ```
 
 2. Change directory to Ecomerce-API 
