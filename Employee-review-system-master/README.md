@@ -126,5 +126,5 @@ npm start
 ```
 ## Author
 
-- [@HarshitSingh45](https://www.github.com/HarshitSingh45)
+- [@Shubham Rai](https://github.com/shubhamrai11)
 
